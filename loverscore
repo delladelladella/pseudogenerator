@@ -1,0 +1,6 @@
+var userName = prompt("Give me your name");
+var usersLoversName = prompt("Give me your lover's name");
+var n = Math.random();
+n = n * 100;
+n = Math.floor(n) + 1;
+alert(userName + " & " + usersLoversName + " have a " + n + "% of making it.")
